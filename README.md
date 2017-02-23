@@ -1,4 +1,4 @@
-## Install OpenCV 3.1 on Ubuntu with Python 3.1 or Python 2.7
+## Install OpenCV 3.1 on Ubuntu with Python 2.7 or Python 3.5
 <br />
 ### Installation
 
