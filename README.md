@@ -5,7 +5,7 @@
 1. Run command ./install_opencv.bash in terminal.
 2. Press 1 for Python 2.7 __or__ Press 2 for Python 3.5
 3. Please put password and press y for install opencv in each process.
-4. You can use OpenCV when terminal show output is "======== Finsih Install. ========".
+4. You can use OpenCV when terminal show output is "======== Finish Install. ========".
 <br />
 
 ### Testing your OpenCV
