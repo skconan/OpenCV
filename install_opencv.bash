@@ -16,6 +16,7 @@ then
 	sudo apt-get install libswscale-dev libv4l-dev;
 	echo "======== Install GTK for use GUI in OpenCV. ========";
 	sudo apt-get install libgtk2.0-dev;
+    echo "======== Install libraries for optimize various functionalities in OpenCV. ========";
 	sudo apt-get install libatlas-base-dev gfortran;
 	ech "======== Install Python 2 development. ========";
 	sudo apt-get install python2.7-dev;
