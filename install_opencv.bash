@@ -9,12 +9,14 @@ sudo apt-get install build-essential;
 sudo apt-get install cmake;
 sudo apt-get install pkg-config;
 echo "======== Install libraries for read images from disk. ========";
-sudo apt-get install libjpeg8-dev libtiff4-dev libjasper-dev libpng12-dev;
+sudo apt-get install libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev;
 echo "======== Install libraries for read videos from disk. ========";
 sudo apt-get install libavcodec-dev libavformat-dev; 
 sudo apt-get install libswscale-dev libv4l-dev;
+sudo apt-get install libxvidcore-dev libx264-dev
 echo "======== Install GTK for use GUI in OpenCV. ========";
 sudo apt-get install libgtk2.0-dev;
+sudo apt-get install libgtk-3-dev;
 echo "======== Install libraries for optimize various functionalities in OpenCV. ========";
 sudo apt-get install libatlas-base-dev gfortran;
 
@@ -71,9 +73,6 @@ else
 fi		
 echo "======== make -j4 ========";
 sudo make -j4;
-echo "======== make ========";
-sudo make clean;
-sudo make;
 echo "======== Make install. ========";
 sudo make install;
 echo "======== Finsih Install. ========";
