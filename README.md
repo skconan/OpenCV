@@ -15,6 +15,10 @@
 3. Check output is '3.1.0' ,If not please contact me : supakit.kr@gmail.com
 
 <br />
+
+Warning : use command ./install_opencv.bash cannot use sh or sudo ./
+
+<br />
 <br />
 
 Thank you.
