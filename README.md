@@ -1,4 +1,4 @@
-## Install OpenCV 3.1 on Ubuntu with Python 2.7 or Python 3.5
+## Install OpenCV 3.x on Ubuntu with Python 2.7 or Python 3.x
 <br />
 ### Installation
 
@@ -10,9 +10,9 @@
 
 ### Testing your OpenCV
 
-1. Run command python2.7 or Python3.5
+1. Run command python2.7 or Python3.x
 2. In python >> import cv2 __and__ >> cv2.&#95;&#95;version&#95;&#95;
-3. Check output is '3.1.0' ,If not please contact me : supakit.kr@gmail.com
+3. Check output is '3.x.x'
 
 <br />
 
