@@ -5,40 +5,40 @@ echo "======== Update & Upgrade the package lists ========";
 sudo apt-get update;
 sudo apt-get upgrade;
 echo "======== Install compiler such as g++, gcc, make and etc. ========";
-sudo apt-get install build-essential;	
-sudo apt-get install cmake;
-sudo apt-get install pkg-config;
+sudo apt-get -y install build-essential;	
+sudo apt-get -y install cmake;
+sudo apt-get -y install pkg-config;
 echo "======== Install libraries for read images from disk. ========";
-sudo apt-get install libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev;
+sudo apt-get -y install libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev;
 echo "======== Install libraries for read videos from disk. ========";
-sudo apt-get install libavcodec-dev libavformat-dev; 
-sudo apt-get install libswscale-dev libv4l-dev;
-sudo apt-get install libxvidcore-dev libx264-dev
+sudo apt-get -y install libavcodec-dev libavformat-dev; 
+sudo apt-get -y install libswscale-dev libv4l-dev;
+sudo apt-get -y install libxvidcore-dev libx264-dev
 echo "======== Install GTK for use GUI in OpenCV. ========";
-sudo apt-get install libgtk2.0-dev;
-sudo apt-get install libgtk-3-dev;
+sudo apt-get -y install libgtk2.0-dev;
+sudo apt-get -y install libgtk-3-dev;
 echo "======== Install libraries for optimize various functionalities in OpenCV. ========";
-sudo apt-get install libatlas-base-dev gfortran;
+sudo apt-get -y install libatlas-base-dev gfortran;
 
 
 if [ $response == 1 ]; then
 	echo "======== Install Python 2 development. ========";
-	sudo apt-get install python2.7-dev;
+	sudo apt-get -y install python2.7-dev;
 	echo "======== Install numpy. ========";
-	sudo apt-get install python-pip;
+	sudo apt-get -y install python-pip;
 	sudo pip2 install pip --upgrade;
 	sudo pip2 install numpy;
 else
 	echo "======== Install Python 3 development. ========";
-	sudo apt-get install python3.5-dev;
+	sudo apt-get -y install python3.5-dev;
 	echo "======== Install numpy. ========";
-	sudo apt-get install python3-pip;
+	sudo apt-get -y install python3-pip;
 	sudo pip3 install pip --upgrade;
 	sudo pip3 install numpy;
 fi	
 
 echo "======== Install Git for clone OpenCV. ========"
-sudo apt-get install git;
+sudo apt-get -y install git;
 echo "======== Download OpenCV to home directory. ========";		
 cd;
 git clone https://github.com/opencv/opencv;
