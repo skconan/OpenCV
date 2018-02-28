@@ -59,7 +59,7 @@ if [ $response == 1 ]; then
     	-D INSTALL_PYTHON_EXAMPLES=ON \
     	-D INSTALL_C_EXAMPLES=OFF \
     	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
-    	-D PYTHON_EXECUTABLE=/usr/bin/python \
+    	-D PYTHON_EXECUTABLE=/usr/bin/python2.7 \
     	-D BUILD_EXAMPLES=ON ..;
 else
 	echo "======== Cmake ========";
